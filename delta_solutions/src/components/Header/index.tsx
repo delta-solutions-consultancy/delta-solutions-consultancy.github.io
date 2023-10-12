@@ -48,8 +48,8 @@ const Header = ({ t }: any) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
-        >
+            onClick={() => window.location.href = "mailto:aoife.DeltaSolutions@gmail.com"}
+          >
           <Span>
             <Button>{t("Contact")}</Button>
           </Span>
