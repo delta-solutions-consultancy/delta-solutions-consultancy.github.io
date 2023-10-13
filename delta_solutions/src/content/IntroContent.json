@@ -1,13 +1,14 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Delta Solutions: Leading the Way in Data Science & EDI",
+  "text": "Bridging data excellence with a commitment to Equality, Diversity, and Inclusivity. Rely on over a decade of expertise to navigate your data challenges while championing inclusive practices.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Discover Our Expertise"
     },
     {
-      "title": "Learn more",
+      "title": "Commitment to EDI",
       "color": "#fff"
+      
     }
   ]
 }

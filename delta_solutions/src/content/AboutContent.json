@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Delta Solutions: Consultancy & Data Science Expertise",
+  "text": "Delta Solutions offers over a decade of data science experience, with a specialized focus on sensitive data and EDI (Equality, Diversity, and Inclusivity) considerations. We cater to a broad spectrum of business needs, from small and large enterprises to academic sectors.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Why Choose Delta Solutions?",
+      "content": "At Delta Solutions, our profound expertise in data science is complemented by a deep understanding of EDI principles. We pride ourselves on delivering insights from sensitive data, ensuring that our solutions are tailored to diverse business contexts.",
+      "icon": "notes.png"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Proven Track Record",
+      "content": "Delta Solutions stands tall with more than a decade of hands-on experience in data science. Our commitment is to professionalism, precision, and delivering effective results tailored to your specific needs.",
+      "icon": "notes.png"
     }
   ]
 }
