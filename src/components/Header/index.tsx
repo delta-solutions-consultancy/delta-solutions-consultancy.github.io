@@ -4,6 +4,8 @@ import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+import { Link } from "react-router-dom";
+
 import {
   HeaderSection,
   LogoContainer,
@@ -40,6 +42,12 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>
+
+        <CustomNavLinkSmall>
+        <Link to="/blog">
+          <Span>{t("Blog")}</Span>
+        </Link>
+      </CustomNavLinkSmall>
 
         <CustomNavLinkSmall
           style={{ width: "180px" }}
