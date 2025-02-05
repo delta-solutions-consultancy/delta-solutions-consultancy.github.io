@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
+import { useHistory } from "react-router-dom";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
@@ -18,6 +19,7 @@ import {
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
+  const history = useHistory();
 
   const showDrawer = () => {
     setVisibility(!visible);
@@ -37,14 +39,21 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+        <CustomNavLinkSmall onClick={() => history.push("/about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>
 
+        <CustomNavLinkSmall onClick={() => history.push("/training")}>
+          <Span>{t("Training Courses")}</Span>
+        </CustomNavLinkSmall>
+
+        <CustomNavLinkSmall onClick={() => history.push("/services")}>
+          <Span>{t("What we offer")}</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-            onClick={() => window.location.href = "mailto:aoife.DeltaSolutions@gmail.com"}
-          >
+          onClick={() => history.push("/contact")}
+        >
           <Span>
             <Button>{t("Contact")}</Button>
           </Span>

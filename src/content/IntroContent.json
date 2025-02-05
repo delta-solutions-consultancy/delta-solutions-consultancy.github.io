@@ -1,14 +1,15 @@
 {
-  "title": "Delta Solutions: Leading the Way in Data Science & EDI",
-  "text": "Bridging data excellence with a commitment to Equality, Diversity, and Inclusivity. Rely on over a decade of expertise to navigate your data challenges while championing inclusive practices.",
+  "title": "Delta Solutions: Expert Data Science & Research Consultancy",
+  "text": "Delivering advanced data science and statistical expertise backed by extensive experience in medical and biological research. Trusted by world-leading institutions including UCL, Imperial College London, Oxford, Cambridge, and the NHS. Specializing in secure handling of sensitive data and successful government funding acquisition.",
   "button": [
     {
-      "title": "Discover Our Expertise"
+      "title": "Explore Our Services",
+      "path": "about"
     },
     {
-      "title": "Commitment to EDI",
-      "color": "#fff"
-      
+      "title": "Research Expertise",
+      "color": "#fff",
+      "path": "mission"
     }
   ]
 }

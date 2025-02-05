@@ -1,15 +1,15 @@
 {
-  "title": "Delta Solutions: Consultancy & Data Science Expertise",
-  "text": "Delta Solutions offers over a decade of data science experience, with a specialized focus on sensitive data and EDI (Equality, Diversity, and Inclusivity) considerations. We cater to a broad spectrum of business needs, from small and large enterprises to academic sectors.",
+  "title": "Delta Solutions: Advanced Data Science & Research Expertise",
+  "text": "Delta Solutions brings over a decade of expertise in data science, statistical analysis, and research methodologies, with particular focus on medical and biological sciences. We specialize in handling sensitive data and have a proven track record of successful collaborations with world-leading institutions.",
   "section": [
     {
       "title": "Why Choose Delta Solutions?",
-      "content": "At Delta Solutions, our profound expertise in data science is complemented by a deep understanding of EDI principles. We pride ourselves on delivering insights from sensitive data, ensuring that our solutions are tailored to diverse business contexts.",
+      "content": "Our expertise spans cutting-edge data science, medical research, and biological sciences. We've successfully secured government funding and collaborated with prestigious institutions including UCL, Imperial College London, Oxford University, Cambridge, and the John Innes Centre. Our work with the NHS demonstrates our capability in handling sensitive data with the highest security standards.",
       "icon": "notes.png"
     },
     {
-      "title": "Proven Track Record",
-      "content": "Delta Solutions stands tall with more than a decade of hands-on experience in data science. Our commitment is to professionalism, precision, and delivering effective results tailored to your specific needs.",
+      "title": "Comprehensive Services",
+      "content": "We offer specialized consultancy and training in advanced statistical analysis, research design, and data science methodologies. Our services are tailored to meet the rigorous demands of academic research, healthcare organizations, and institutions requiring sophisticated data analysis while maintaining strict data security protocols.",
       "icon": "notes.png"
     }
   ]
