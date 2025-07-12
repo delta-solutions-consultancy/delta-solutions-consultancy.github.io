@@ -83,6 +83,9 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
+              <NavLink to="/privacy-policy" style={{ marginRight: "1rem", color: "#18216d" }}>
+                Privacy Policy
+              </NavLink>
               <SocialLink
                 href="http://github.com/aoifehughes"
                 src="github.svg"
